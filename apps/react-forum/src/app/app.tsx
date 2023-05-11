@@ -1,13 +1,13 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
+import styles from './app.module.css'
 
-import NxWelcome from './nx-welcome';
+import NxWelcome from './nx-welcome'
 
-import { Route, Routes, Link } from 'react-router-dom';
+import { Route, Routes, Link } from 'react-router-dom'
 
 export function App() {
   return (
-    <div>
+    <div className="mt-3 pr-4 pl-2 text-black">
       <NxWelcome title="react-forum" />
 
       {/* START: routes */}
@@ -47,7 +47,7 @@ export function App() {
       </Routes>
       {/* END: routes */}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
